@@ -5,7 +5,7 @@ function calc($a, $b){
     $subtraction = $a - $b;
     $div = $a / $b;
     $multiply = $a * $b;
-    echo $sum . "<br>" . $subtraction . "<br>" . $div . "<br>" . $multiply . "<br> =======" . "<br>";
+    echo $sum . "<br>" . $subtraction . "<br>" . $div . "<br>" . $multiply . "<br> ======= <br>";
 }
 
 calc(2,4);
