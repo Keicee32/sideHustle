@@ -1,0 +1,25 @@
+.container{
+    width: 450px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.container form input{
+    margin-bottom: 20px;
+}
+
+.container p{
+    margin: 40px 40px;
+}
