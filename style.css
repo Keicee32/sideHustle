@@ -1,0 +1,133 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.signIncontainer{
+    background-color: #efefee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    background-color: #fff;
+    min-height: 300px;
+    max-height: 100%;
+    width: 450px;
+    box-shadow: rgba(0,0,0, 0.2) 0 1px 2px;
+    padding: 20px 40px;
+}
+
+.column form{
+    display: flex;
+    flex-direction: column;
+}
+
+.column form input[type="text"],
+.column form input[type="email"],
+.column form input[type="password"]{
+  font-size: 14px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #dedede;  
+}
+
+.column form input[type="submit"]{
+    background-color: #4285f4;
+    color: #fff;
+    height: 36px;
+    width: 88px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.column .header{
+    padding: 20px 0;
+} 
+
+.column .header h2{
+    line-height: 32px;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 14px;
+    color: #000;
+}
+
+.column .header span{
+    font-size: 14px;
+}
+
+.column .header img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.signInMessage{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.errorMessage{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 20px 30px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+header img{
+    width: 230px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+} 
+
+header li{
+    padding: 0 15px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    border-bottom: 1px solid #4285f4;
+}
+
+.container{
+    max-width: 1000px;
+    padding: 20px 30px;
+}
+
+.container h1{
+    text-align: center;
+}
